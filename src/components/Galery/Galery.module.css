@@ -1,0 +1,8 @@
+.galery {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  width: 20%;
+  height: auto;
+}
