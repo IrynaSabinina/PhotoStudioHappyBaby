@@ -1,7 +1,20 @@
 .header {
   display: flex;
+
   justify-items: center;
   justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
+  align-items: center;
+  padding: 5px 15px;
+}
+.logo {
+  font-family: "Dancing Script";
+  font-size: 35px;
+  margin: 0;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Rubik";
+  font-size: 15px;
 }

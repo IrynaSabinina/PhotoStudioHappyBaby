@@ -4,9 +4,10 @@ export const Header = () => {
     <>
       <div className={styles.header}>
         <p>
-          SabininaIryna <span> you professional newbornPhotographer</span>
+          <span className={styles.logo}>SabininaIryna</span>{" "}
+          <span> you professional newbornPhotographer</span>
         </p>
-        <div>
+        <div className={styles.text}>
           <p>tel: +48576741276</p>
           <p>email: pysarenkoiryna@gmail.com</p>
         </div>
